@@ -1,0 +1,143 @@
+body{
+    background-color: #211f20;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3, p, a{
+    color: white;
+    font-family: sans-serif;
+    margin-top: 0;
+}
+
+p{
+    font-size: 120%;
+}
+
+.blaze {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.emploi{
+    text-align: center;
+    font-size: 115%;
+}
+
+.navbar{
+    font-size: 120%;
+    background: #151414;
+    margin-top: 20px;
+    padding-block: 15px;
+}
+
+.data-navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120%;
+    text-decoration: none;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.home:hover, .data2:hover, .data3:hover, .data4:hover{
+    color: cornflowerblue;
+}
+
+.home, .data2, .data3, .data4 {
+    transition: 0.3s color ease-in-out;
+}
+
+.data2, .data3, .data4{
+    padding-left: 25px;
+}
+
+.box1, .box2, .box3{
+    margin: 100px;
+}
+
+.data-skills, .data-about{
+    display: flex;
+}
+
+.roberval{
+    display: flex;
+    justify-content: center;
+    padding-block: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background: #151414;
+    transition: 0.5s background ease;
+    text-decoration: none;
+}
+
+.promeo{
+    display: flex;
+    justify-content: center;
+    padding-block: 20px;
+    background: #151414;
+    transition: 0.5s background ease;
+    text-decoration: none;
+}
+
+.promeo:hover, .roberval:hover{
+    background-color: cornflowerblue;
+}
+
+.p-about{
+    line-height: 30px;
+    text-align: justify;
+    text-align-all: center;
+}
+.para1{
+    margin-top: 18px;
+}
+.para2{
+    width: 500px;
+}
+
+.imgdiscord, .imgmail{
+    width: 2%;
+    margin-right: 15px;
+}
+
+.discord, .mail{
+    display: flex;
+    padding: 5px;
+    margin-top: 25px;
+}
+
+.pdiscord{
+    margin-bottom: 0;
+    margin-top: 6px;
+}
+
+.pmail{
+    margin-bottom: 0;
+    margin-top: 12px;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+.couv1_img, .couv2_img{
+    width: 30%;
+    border-radius: 20px;
+    margin-left: 180px;
+}
+
+.couv1_img {
+    margin-left: 510px;
+}
+
+.limit{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 160%;
+}
